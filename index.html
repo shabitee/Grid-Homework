@@ -1,1 +1,88 @@
 
+/*begining of body style*/
+body{
+    background-color: rgb(226 236 255);
+    width:100%;
+    margin:0;
+}
+/*end of body style*/
+
+/*begining of heading style*/
+.header{
+    color:black;
+    margin:0;
+    padding:10px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(174 174 174);
+    height:50px;
+}
+/*end of heading style*/
+
+
+/*begining of grid-container style*/
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:minmax(200px,auto);
+    gap:1em;
+
+    
+}
+/*end of grid-containers style*/
+
+/*begining of grid container div*/
+.grid-container div aside{
+    background-color:white;
+    padding: 5px;
+}
+/*end of grid container div style*/
+
+
+
+ /*begining of container1 style*/
+.container1{
+    display:grid;
+    grid-template-rows: 200px;
+    grid-template-columns: auto auto;
+    margin-left: 20px;
+    gap:1%;
+    padding:5px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 100px auto;
+}
+/*end of grid container1 style*/
+
+
+/*beginning of item5 style*/
+.item5{
+    grid-column: 1/3;
+    padding:5px;
+    margin-left: 20px;
+}
+/*end of item5 style*/
+
+
+/*begining of item6*/
+.item6{
+    grid-column: 3/4;
+    grid-row: 1/4;
+    margin-left: 20px;
+    padding:5px;
+}
+/*end of item6*/
+
+
+/*beginning of footer style*/
+footer{
+    background-color: rgb(174 174 174);
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    left:0;
+    margin-top: 20px;
+    padding:10px;
+    text-align: center;
+}
+/*end of footer style*/

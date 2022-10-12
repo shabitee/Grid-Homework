@@ -86,3 +86,23 @@ footer{
 }
 /*end of footer style*/
 
+
+
+/*begining of media queries*/
+@media screen and (max-width:850px) {
+    section{
+        grid-template-columns:repeat(3, 1fr);
+
+    }
+    
+    .item3{
+        grid-column: 2/4;
+        grid-row: 2/3;
+
+    }
+    .item6 {
+        grid-column: 1/4;
+    }
+}
+/*end of media queries*/ 
+
